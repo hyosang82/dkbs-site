@@ -1,0 +1,7 @@
+section#visit div {
+	float:right;
+}
+
+section#visit div ul {
+	list-style:none;
+}

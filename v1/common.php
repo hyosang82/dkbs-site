@@ -182,6 +182,7 @@ else
 // G5_MOBILE_AGENT : config.php 에서 선언
 //------------------------------------------------------------------------------
 $is_mobile = false;
+/* 모바일용 UI 사용하지 않음
 if (G5_USE_MOBILE) {
     if ($_REQUEST['device']=='pc')
         $is_mobile = false;
@@ -192,6 +193,7 @@ if (G5_USE_MOBILE) {
     else if (is_mobile())
         $is_mobile = true;
 }
+*/
 
 $_SESSION['ss_is_mobile'] = $is_mobile;
 define('G5_IS_MOBILE', $is_mobile);
